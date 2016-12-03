@@ -1,19 +1,29 @@
-# S.A.M -  Selenium Project
-S.A.M - An Acronym for "System Automated Mail" is an Automated Mailing System program.
+S.A.M - An acronym for System Automated Mail
 
-Project requires user to enter these details in the FirstTestCase.txt Text File :-
+Project Description: It started with a small script for automating google email service. Now it can be used for both google and yahoo email services. Basic idea behind the project is to reduce the time taken to compose your email.
 
-->User's mailing account. 
-# *As of currently S.A.M services can only be used for gmail, yahoomail and rediffmail websites.
+> The project comprises of a code and a text file. Text file holds the email components which are needed to compose the email.
 
-->User's Username or Email Address
+> Code requires user to enter these details in the FirstTestCase.txt Text File :-
 
-->User's Password (which will be hidden)
+> User's mailing account. 
 
-->Receiver's Email Address
+> User's Username or Email Address
 
-->User's message
+> User's Password (which will be hidden)
+
+> Receiver's Email Address
+
+> User's message (Body of email)
 
 Project was written in Java Programming Language and uses Selenium WebDriver on FireFox Browser for automation.
 
-This project contains 2 files, one being the source code itself and second is the text command repository for the user to change.
+This project contains 2 files, one being the source code itself and second is the text command repository for the user to edit or enter details.
+
+#Developments Required
+
+> One of the basic problem with automating any website is that they differ from one to another on the basis of layouts. Take for example Gmail - Yahoo mail - Hot mail they all differ in the terms of web elements, their positions and counts. We cannot generalise automation due to which we have to write separarte code for each fo these sites.
+
+> Second problem is wide variety. Around 65% of german users don't even use the google or yahoo mailing services hence we can implement contry specific application too. Like for web.de (Germany)
+
+> Third issue is to convert the above project into an executable file and implement a primitive Graphical user interface.

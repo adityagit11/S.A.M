@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="434.0" prefWidth="700.0" style="-fx-background-color: #dcdcdc;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111" fx:controller="com.pushmail.InterfacePane">
+   <children>
+      <AnchorPane prefHeight="51.0" prefWidth="700.0" style="-fx-background-color: #00a1f1;">
+         <children>
+            <Label layoutX="23.0" layoutY="11.0" text="Push-Mail" textFill="WHITE">
+               <font>
+                  <Font name="Aharoni Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="627.0" layoutY="29.0" text="Version 1.0" textFill="WHITE">
+               <font>
+                  <Font name="Aharoni Bold" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="411.0" prefHeight="27.0" prefWidth="700.0" style="-fx-background-color: #00a1f1;">
+         <children>
+            <Label layoutX="512.0" layoutY="5.0" text="© Product by Aditya Singh Wolvie" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="SendButton" layoutX="313.0" layoutY="368.0" mnemonicParsing="false" onAction="#click_SendButton" prefHeight="35.0" prefWidth="74.0" text="Send">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="14.0" layoutY="66.0" prefHeight="18.0" prefWidth="141.0" text="Enter Sender Email :">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="130.0" prefHeight="17.0" prefWidth="141.0" text="Enter Reciever Email :">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="98.0" prefHeight="18.0" prefWidth="141.0" text="Enter Sender Password :">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="SenderPasswordField" layoutX="164.0" layoutY="94.0" prefHeight="25.0" prefWidth="522.0" promptText="Enter sender's password" />
+      <TextField fx:id="SenderEmailField" layoutX="164.0" layoutY="62.0" prefHeight="25.0" prefWidth="522.0" promptText="Enter sender's email address" />
+      <TextField fx:id="RecieverEmailField" layoutX="164.0" layoutY="126.0" prefHeight="25.0" prefWidth="522.0" promptText="Enter reciever's email address" />
+      <TextArea fx:id="EmailContentField" layoutX="12.0" layoutY="220.0" prefHeight="137.0" prefWidth="674.0" promptText="Enter email content" />
+      <Label layoutX="14.0" layoutY="163.0" prefHeight="17.0" prefWidth="141.0" text="Enter Email Subject :">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="EmailSubjectField" layoutX="164.0" layoutY="159.0" prefHeight="25.0" prefWidth="522.0" promptText="Enter email subject" />
+      <Label layoutX="14.0" layoutY="194.0" prefHeight="17.0" prefWidth="141.0" text="Enter Email Content :">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

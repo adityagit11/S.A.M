@@ -2,6 +2,8 @@ S.A.M - An acronym for System Automated Mail
 
 Project Description: It started with a small script for automating google email service. Now it can be used for both google and yahoo email services. Basic idea behind the project is to reduce the time taken to compose your email.
 
+![PushMail](https://github.com/adityagit11/S.A.M/blob/master/Pushmail.png)
+
 > The project comprises of a code and a text file. Text file holds the email components which are needed to compose the email.
 
 > Code requires user to enter these details in the FirstTestCase.txt Text File :-
